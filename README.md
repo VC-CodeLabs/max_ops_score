@@ -1,4 +1,4 @@
-# max_ops_score
+# Maximum Number of Operations With the Same Score II
 Given an array of integers called nums, you can perform any of the following operation while nums contains at least 2 elements:
 
 Choose the first two elements of nums and delete them.
