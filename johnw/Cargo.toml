@@ -1,0 +1,14 @@
+[package]
+name = "max_ops_score"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "max_ops_score"
+path = "main.rs"
+test = false
+bench = false
+
+
