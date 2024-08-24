@@ -10,7 +10,7 @@ Your task is to find the maximum number of operations that can be performed, suc
 
 Return the maximum number of operations possible that satisfy the condition mentioned above.
 
-Leetcode link: [https://leetcode.com/problems/merge-intervals/description/](https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-ii/description/)
+Leetcode link: [Max Score II](https://leetcode.com/problems/maximum-number-of-operations-with-the-same-score-ii/description/)
  
 **Examples:**</br>
 **Example 1:**</br>
