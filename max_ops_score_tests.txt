@@ -1,0 +1,49 @@
+Test Case 1: Minimum Size Input
+Input: [1, 1]
+Output: 1
+Explanation: Only one operation can be performed, with score 1 + 1 = 2.
+
+Test Case 2: Small Array with Identical Elements
+Input: [2, 2, 2, 2]
+Output: 2
+Explanation: Two operations can be performed: (2+2) and (2+2), both with the score 4.
+
+Test Case 3: 
+Input: [1, 2, 3, 4, 5]
+Output: 2
+Explanation: Two operations with score 6: (5+1) and (2+4).
+
+Test Case 4: All Elements Different but Possible to Have Same Score
+Input: [3, 2, 1, 2, 3, 4]
+Output: 3
+Explanation: Possible operations all with score 5: (3+2), (1+4), (2+3).
+
+Test Case 5: No possible operations
+Input: [5, 3, 2, 4, 1, 6]
+Output: 2
+Explanation: Two operations with score 8: (5+3) and (2+6).
+
+Test Case 6: Array with Same Pairs
+Input: [4, 4, 4, 4, 4, 4]
+Output: 3
+Explanation: Three operations possible with score 8: (4+4), (4+4), (4+4).
+
+Test Case 7: Edge Case with Maximum Score Possible
+Input: [1000, 1000, 1000, 1000, 1000, 1000, 1000, 1000]
+Output: 4
+Explanation: Four operations possible with the maximum score of 2000: (1000+1000) repeated four times.
+
+Test Case 8: Edge Case with All Elements the Same and Length Just Above Minimum
+Input: [7, 7, 7, 7, 7]
+Output: 2
+Explanation: Two operations possible with score 14: (7+7) twice, leaving one element, so no more operations.
+
+Test Case 9: Large Array with Varying Scores
+Input: [25,11,16,18,17,21,24,12,7,15,9,2,19,4,20,22,3,14,8,5,6,13,10,23,1]
+Output: 1
+Explanation: Only a single operation can be done.
+
+Test Case 10: Balanced Array with Repeating Sequence
+Input: [3, 3, 6, 6, 3, 3]
+Output: 2
+Explanation: Three operations possible with score 6: (3+3), (3+3).
